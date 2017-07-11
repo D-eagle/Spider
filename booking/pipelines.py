@@ -8,4 +8,13 @@
 
 class BookingPipeline(object):
     def process_item(self, item, spider):
+    	print "--------------------------------"
+        print item['name'][0]+u'/n'
+        print item['author'][0]+u'/n'
+        print item['publish'][0]+u'/n'
+        print item['price'][0]+u'/n'
+        print item['goods'][0]+u'/n'
+        print item['discount'][0]+u'/n'
+        print item['link'][0]+u'/n'
+        print "--------------------------------"
         return item

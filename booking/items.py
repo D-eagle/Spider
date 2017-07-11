@@ -17,4 +17,4 @@ class BookingItem(scrapy.Item):
     price = scrapy.Field()
     goods = scrapy.Field()
     discount = scrapy.Field()
-     
+    link = scrapy.Field()    
